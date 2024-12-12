@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="Mã nhân viên"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="#FF0000"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="Tên nhân viên"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="#7070D5"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="Hệ số"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="#00FFFF"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="Lương cơ bản"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:background="#00FF00"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:id="@+id/txtMa"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:background="#FF0000"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:id="@+id/txtTen"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:background="#7070D5"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:id="@+id/txtHeSo"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:background="#00FFFF"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:id="@+id/txtLuong"
+            android:textSize="7pt"
+            android:textStyle="bold"
+            android:background="#00FF00"
+            />
+    </LinearLayout>
+
+</LinearLayout>
